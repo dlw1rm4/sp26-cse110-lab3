@@ -1,2 +1,2 @@
-# Lab 2 - Starter
-https://dlw1rm4.github.io/Lab2_Starter/
+# Lab 3 - Site
+https://dlw1rm4.github.io/sp26-cse110-lab3/
