@@ -12,6 +12,7 @@ body
     padding-right: 7vw;
     padding-bottom: 5vh;
     padding-top: 5vh;
+    margin: 100px 100px 100px 100px;
 }
 
 main
@@ -57,6 +58,7 @@ h3
 a
 {
     background-color: none;
+    margin: auto;
 }
 
 /* highlight hyperlink when hovered */
