@@ -1,26 +1,10 @@
-/* highlight selectors in green */
-selector
-{
-    background-color: green;
-}
-
-/* highlight properties in purple */
-property
-{
-    background-color: purple;
-}
-
-/* highlight values in orange */
-value
-{
-    background-color: orange;
-}
-
+/* signals absent members */
 absent
 {
     color: red;
 }
 
+/* signals present members */
 present
 {
     color: rgb(green);
@@ -33,5 +17,17 @@ week-title
 
 week-subtitles
 {
-    color: #313647
+    color: #313647;
+}
+
+/* vivid red for issue */
+issue
+{
+    color: color(display-p3 1 0 0);
+}
+
+/* highlight hyperlink */
+top-link:hover
+{
+    background-color: color-mix(in oklab, red, white 15%);
 }
