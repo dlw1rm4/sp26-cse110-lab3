@@ -25,17 +25,20 @@ body
 h2
 {
     color: hsl(0, 0%, 40%);
+    padding-bottom: 5px;
 }
 
 .week-subtitles
 {
     color: #313647;
+    padding-bottom: 1pc;
 }
 
 /* vivid red for issue */
 h3
 {
     color: color(display-p3 1 0 0);
+    padding-bottom: 5pt;
 }
 
 a
