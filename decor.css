@@ -1,33 +1,33 @@
 /* signals absent members */
-absent
+.absent p
 {
     color: red;
 }
 
 /* signals present members */
-present
+.present p
 {
-    color: rgb(green);
+    color: rgb(0, 128, 0);
 }
 
-week-title
+h2
 {
-    color: hgb(0, 0, 50%);
+    color: hsl(0, 0%, 40%);
 }
 
-week-subtitles
+.week-subtitles
 {
     color: #313647;
 }
 
 /* vivid red for issue */
-issue
+h3
 {
     color: color(display-p3 1 0 0);
 }
 
 /* highlight hyperlink */
-top-link:hover
+a:hover
 {
     background-color: color-mix(in oklab, red, white 15%);
 }
