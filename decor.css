@@ -15,3 +15,13 @@ value
 {
     background-color: orange;
 }
+
+absent
+{
+    color: red;
+}
+
+present
+{
+    color: rgb(green);
+}
