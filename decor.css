@@ -8,6 +8,10 @@
 body
 {
     font-family: var(--main-font, monospace);
+    padding-left: 7vw;
+    padding-right: 7vw;
+    padding-bottom: 5vh;
+    padding-top: 5vh;
 }
 
 /* signals absent members */
@@ -26,6 +30,7 @@ h2
 {
     color: hsl(0, 0%, 40%);
     padding-bottom: 5px;
+    font-size: 1.5em;
 }
 
 .week-subtitles
