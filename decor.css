@@ -23,6 +23,11 @@ main
     margin-right: 2vw;
 }
 
+h1
+{
+    text-align: left;
+}
+
 /* signals absent members */
 .absent p
 {
@@ -125,6 +130,7 @@ h2
 {
     color: #313647;
     padding-bottom: 1pc;
+    text-decoration: underline #313647 1px;
 }
 
 /* vivid red for issue */
