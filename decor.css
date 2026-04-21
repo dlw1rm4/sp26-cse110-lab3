@@ -5,13 +5,13 @@ selector
 }
 
 /* highlight properties in purple */
-properties
+property
 {
     background-color: purple;
 }
 
 /* highlight values in orange */
-values
+value
 {
     background-color: orange;
 }
