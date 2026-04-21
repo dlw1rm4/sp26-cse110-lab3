@@ -1,17 +1,33 @@
-/* highlight selectors in green */
-selector
+/* signals absent members */
+.absent p
 {
-    background-color: green;
+    color: red;
 }
 
-/* highlight properties in purple */
-property
+/* signals present members */
+.present p
 {
-    background-color: purple;
+    color: rgb(0, 128, 0);
 }
 
-/* highlight values in orange */
-value
+h2
 {
-    background-color: orange;
+    color: hsl(0, 0%, 40%);
+}
+
+.week-subtitles
+{
+    color: #313647;
+}
+
+/* vivid red for issue */
+h3
+{
+    color: color(display-p3 1 0 0);
+}
+
+/* highlight hyperlink */
+a:hover
+{
+    background-color: color-mix(in oklab, red, white 15%);
 }
