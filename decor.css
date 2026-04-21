@@ -1,3 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+:root 
+{
+    --main-font: 'Open Sans';
+}
+
+body
+{
+    font-family: var(--main-font, monospace);
+}
+
 /* signals absent members */
 .absent p
 {
@@ -26,8 +38,13 @@ h3
     color: color(display-p3 1 0 0);
 }
 
-/* highlight hyperlink */
-a:hover
+a
 {
     background-color: color-mix(in oklab, red, white 15%);
+}
+
+/* highlight hyperlink when hovered */
+a:hover
+{
+    background-color: color-mix(in oklab, green, white 15%);
 }
