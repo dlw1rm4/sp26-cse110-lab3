@@ -1,13 +1,16 @@
+/* highlight selectors in green */
 selector
 {
     background-color: green;
 }
 
+/* highlight properties in purple */
 properties
 {
     background-color: purple;
 }
 
+/* highlight values in orange */
 values
 {
     background-color: orange;
