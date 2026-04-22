@@ -63,7 +63,7 @@ h3
 
 a
 {
-    background-color: none;
+    background-color: transparent;
     margin: auto;
 }
 
@@ -71,6 +71,11 @@ a
 a:hover
 {
     background-color: color-mix(in oklab, red, white 15%);
+}
+
+a:active
+{
+    background-color: blue;
 }
 
 button
