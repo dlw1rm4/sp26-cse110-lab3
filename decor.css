@@ -1,17 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
-:root 
-{
+:root {
     --main-font: 'Open Sans';
 }
 
-*
-{
+* {
     font-family: var(--main-font, monospace);
 }
 
-body
-{
+body {
     padding-left: 7vw;
     padding-right: 7vw;
     padding-bottom: 5vh;
@@ -24,70 +21,59 @@ body
     gap: 5px;
 }
 
-main
-{
+main {
     margin-top: 5vh;
     margin-bottom: 5vh;
     margin-left: 2vw;
     margin-right: 2vw;
 }
 
-h1
-{
+h1 {
     text-align: left;
 }
 
 /* signals absent members */
-.absent p
-{
+.absent p, li[class="week1"] {
     color: red;
 }
 
 /* signals present members */
-.present p
-{
+.present p {
     color: rgb(0, 128, 0);
 }
 
-h2
-{
+h2 {
     color: hsl(0, 0%, 40%);
     padding-bottom: 5px;
     font-size: 1.5em;
 }
 
-.week-subtitles
-{
+.week-subtitles {
     color: #313647;
     padding-bottom: 1pc;
 }
 
 /* vivid red for issue */
-h3
-{
+h3 {
     color: color(display-p3 1 0 0);
     padding: 0 0 5pt 0;
 }
 
-a
-{
+a {
     background-color: transparent;
     margin: auto;
 }
 
 /* highlight hyperlink when hovered */
-a:hover
-{
+a:hover {
     background-color: color-mix(in oklab, red, white 15%);
 }
 
-a:active
-{
+a:active {
     background-color: blue;
 }
 
-button
-{
+button {
     border-radius: 10px;
     border-width: 3px;
     height: 10vh;
@@ -97,22 +83,23 @@ button
     position: static;
 }
 
-button:hover
-{
+button:hover {
     border-color: #99AD7A;
     border-style: double;
 }
 
-form
-{
+form {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     align-content: left;
 }
 
-@media (max-width: 600px) 
-{
+h1#top {
+    font-weight: bold;
+}
+
+@media (max-width: 600px) {
     body {
         margin: 20px; 
         padding: 5vw;
