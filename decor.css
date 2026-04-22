@@ -99,6 +99,14 @@ h1#top {
     font-weight: bold;
 }
 
+li {
+  list-style-type: disc;
+}
+
+li li {
+  list-style-type: circle;
+}
+
 @media (max-width: 600px) {
     body {
         margin: 20px; 
