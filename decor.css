@@ -15,7 +15,7 @@ body {
     padding-top: 5vh;
     margin: 100px 100px 100px 100px;
     position: relative;
-    align-items: left;
+    align-items: start;
     display: grid;
     grid-template-columns: auto;
     gap: 5px;
@@ -92,7 +92,7 @@ form {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    align-content: left;
+    align-content: flex-start;
 }
 
 h1#top {
@@ -124,6 +124,17 @@ h3 ~ p
 div[id="links-to-meeting-minutes"] > ul > li {
     font-style: italic;
     text-decoration: underline;
+}
+
+h2:has(~ div[class="week-subtitles"]) {
+    color: #5b6797;
+}
+
+ul {
+    padding-left: 40px;
+  & li {
+    margin-bottom: 10px;
+  }
 }
 
 @media (max-width: 600px) {
