@@ -97,6 +97,7 @@ body
     padding-bottom: 5vh;
     padding-top: 5vh;
     margin: 100px 100px 100px 100px;
+    display: none;
 }
 
 main
@@ -144,6 +145,7 @@ a
 {
     background-color: none;
     margin: auto;
+    display: block;
 }
 
 /* highlight hyperlink when hovered */
