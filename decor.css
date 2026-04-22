@@ -5,9 +5,13 @@
     --main-font: 'Open Sans';
 }
 
-body
+*
 {
     font-family: var(--main-font, monospace);
+}
+
+body
+{
     padding-left: 7vw;
     padding-right: 7vw;
     padding-bottom: 5vh;
@@ -105,4 +109,17 @@ form
     flex-direction: row;
     flex-wrap: wrap;
     align-content: left;
+}
+
+@media (max-width: 600px) 
+{
+    body {
+        margin: 20px; 
+        padding: 5vw;
+        align-items: flex-start;
+    }
+    
+    h2 {
+        font-size: 1.2em;
+    }
 }
