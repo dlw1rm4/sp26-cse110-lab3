@@ -15,7 +15,7 @@ body {
     padding-top: 5vh;
     margin: 100px 100px 100px 100px;
     position: relative;
-    align-items: left;
+    align-items: start;
     display: grid;
     grid-template-columns: auto;
     gap: 5px;
@@ -92,7 +92,7 @@ form {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    align-content: left;
+    align-content: flex-start;
 }
 
 h1#top {
