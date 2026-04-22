@@ -98,3 +98,11 @@ button:hover
     border-color: #99AD7A;
     border-style: double;
 }
+
+form
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: left;
+}
