@@ -116,6 +116,11 @@ h1#top
     font-weight: bold;
 }
 
+li[class="week1"]
+{
+    color: red;
+}
+
 @media (max-width: 600px) 
 {
     body {
