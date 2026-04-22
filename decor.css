@@ -80,6 +80,8 @@ button {
     width: 20vw;
     max-height: 40px;
     max-width: 120px;
+    min-width: 100px;
+    min-height: 30px;
     position: static;
 }
 
@@ -100,15 +102,15 @@ h1#top {
 }
 
 li {
-  list-style-type: disc;
+    list-style-type: disc;
 }
 
 li li {
-  list-style-type: circle;
+    list-style-type: circle;
 }
 
 ul > li > b {
-  border-top: 2px dotted #9b94ae;
+    border-top: 2px dotted #9b94ae;
 }
 
 h2 + i {
