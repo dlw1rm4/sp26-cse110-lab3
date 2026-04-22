@@ -126,6 +126,17 @@ div[id="links-to-meeting-minutes"] > ul > li {
     text-decoration: underline;
 }
 
+h2:has(~ div[class="week-subtitles"]) {
+    color: #5b6797;
+}
+
+ul {
+    padding-left: 40px;
+  & li {
+    margin-bottom: 10px;
+  }
+}
+
 @media (max-width: 600px) {
     body {
         margin: 20px; 
