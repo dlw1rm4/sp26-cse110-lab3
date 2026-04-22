@@ -14,6 +14,10 @@ body
     padding-top: 5vh;
     margin: 100px 100px 100px 100px;
     position: relative;
+    align-items: left;
+    display: grid;
+    grid-template-columns: auto;
+    gap: 5px;
 }
 
 main
@@ -93,4 +97,12 @@ button:hover
 {
     border-color: #99AD7A;
     border-style: double;
+}
+
+form
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: left;
 }
